@@ -1,0 +1,61 @@
+.header {
+    display: flex;
+    background-color: rgb(18, 72, 18);
+    height: 90px;
+    width: 100%;
+    
+}
+
+h1 {
+    color: #ffffff;
+    margin-left: 400px;
+}
+
+h3 {
+    color: #ffffff;
+    margin-left: 500px;
+}
+
+img {
+    width: 170px;
+    height: 85px;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(198, 233, 55);
+    width: 114px;
+}
+  
+.flex-container > div {
+    background-color: #458354;
+    width: 95px;
+    margin: 10px;
+    padding: 0px;
+    text-align: center;
+    line-height: 70px;
+    font-size: 10px;
+}
+
+body {
+    margin: 0px;
+    background-image: url('img_ppl.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+.footer {
+    background-color: rgb(18, 72, 18);
+}
+
+.social-links {
+    
+    margin-left: 200px;
+}

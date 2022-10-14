@@ -1,0 +1,82 @@
+.header {
+    display: flex;
+    background-color: rgb(18, 72, 18);
+    height: 90px;
+    width: 100%;
+    
+}
+
+h1 {
+    color: #ffffff;
+    margin-left: 400px;
+}
+
+h3 {
+    color: #ffffff;
+    margin-left: 500px;
+}
+
+img {
+    width: 170px;
+    height: 85px;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(198, 233, 55);
+    width: 114px;
+}
+  
+.flex-container > div {
+    background-color: #458354;
+    width: 95px;
+    margin: 10px;
+    padding: 0px;
+    text-align: center;
+    line-height: 70px;
+    font-size: 10px;
+}
+
+body {
+    margin: 0px;
+    background-image: url(./img/Afbeelding-Ouderavond-Happy-Kids-Happy-Parents-Conrad-van-Pruijssen.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+
+table, td, th {
+    border: 2px solid;
+    height: 50px;
+    border-color: #badcbd;
+    background-color: #2d5331;
+    color: white;
+}
+  
+table { 
+    border-collapse: collapse;
+    border-width: 2px;
+    display: float;
+    position: absolute;
+    top: 300px;
+    left: 500px;
+    width: 65%;
+}
+
+
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+.footer {
+    background-color: rgb(18, 72, 18);
+}
+
+.social-links {
+    margin-left: 200px;
+}
