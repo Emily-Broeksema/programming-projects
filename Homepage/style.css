@@ -3,17 +3,17 @@
     background-color: rgb(18, 72, 18);
     height: 90px;
     width: 100%;
-    
+    position: fixed;
 }
 
 h1 {
     color: #ffffff;
-    margin-left: 400px;
+    margin-left: 500px;
 }
 
 h3 {
     color: #ffffff;
-    margin-left: 500px;
+    margin-left: 600px;
 }
 
 img {
@@ -42,20 +42,22 @@ body {
     margin: 0px;
     background-image: url('img_ppl.png');
     background-repeat: no-repeat;
-    background-attachment: fixed;
     background-size: cover;
 }
 
 a {
     color: white;
     text-decoration: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .footer {
     background-color: rgb(18, 72, 18);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
 }
 
 .social-links {
-    
     margin-left: 200px;
 }
