@@ -18,10 +18,10 @@
 
 h1 {
     color: #ffffff;
-    margin-left: 500px;
+    margin-left: 400px;
 }
 
-@media screen and (min-width:600px) {
+@media screen and (max-width:600px) {
     h1 {
         margin-left: 55px; 
     }
@@ -29,14 +29,14 @@ h1 {
 
 h3 {
     color: #ffffff;
-    margin-left: 600px;
+    margin-left: 530px;
 }
 
-@media screen and (min-width:600px) {
+@media screen and (max-width:600px) {
     h3 {
         display: flex;
         text-align: center;
-        margin-left: 50px;
+        margin-left: 0px;
     }
 }
 
@@ -55,10 +55,8 @@ h3 {
 .informatie {
     display: flex;
     position: absolute;
-    justify-content: center;
-    top: 300px;
-    width: 700px;
-    height: 700px;
+    bottom: 250px;
+    z-index: -1;
     
 }
 
