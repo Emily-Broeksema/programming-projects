@@ -5,6 +5,7 @@
     width: 100%;
     position: sticky;
     top: 0px;
+    z-index: 1;
 }
 
 @media screen and (min-width:600px) {
@@ -53,11 +54,9 @@ h3 {
 }
 
 .informatie {
-    display: flex;
     position: absolute;
     bottom: 250px;
-    z-index: -1;
-    
+    display: flex;
 }
 
 @media screen and (min-width:600px) {
