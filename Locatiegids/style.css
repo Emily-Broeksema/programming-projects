@@ -56,10 +56,14 @@ h3 {
 .informatie {
     position: absolute;
     bottom: 250px;
+    left: 600px;
     display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-@media screen and (min-width:600px) {
+
+@media screen and (max-width:600px) {
     .informatie {
         display: flex;
         left: 370px;
