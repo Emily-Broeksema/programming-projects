@@ -11,8 +11,8 @@ html{
    display: flex;
    align-items: center;
    justify-content: space-between;
-      color: white;
-      background-color: rgb(5, 72, 5);
+      color: #ffffff;
+      background-color: rgb(18, 72, 18);
       text-align: center;
       margin: -1rem;
       padding: 1rem;
@@ -48,7 +48,7 @@ html{
     margin: -1vh;
     padding: 0;
     width: 10%;
-    background-color: rgb(143, 234, 7);
+    background-color: rgb(198, 233, 55);
     position: fixed;
     height: 100%;
     overflow: auto;
@@ -58,7 +58,7 @@ html{
 
   li a {
     display: block;
-    color: white;
+    color: #ffffff;
     padding: 8px 16px;
     text-decoration: none;
   }
@@ -205,7 +205,7 @@ footer{
 display: flex;
 margin: -1rem;
 text-align: center;
-background-color: rgb(9, 66, 9);
+background-color: rgb(18, 72, 18);
 color: white;
 padding: 3px;
 justify-content: space-evenly;
@@ -213,7 +213,7 @@ list-style-type: none;
 }
 
 footer a{
-color: white;
+color: #ffffff;
 list-style-type: none;
 text-decoration: none;
 }
