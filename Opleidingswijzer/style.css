@@ -1,153 +1,57 @@
-html{
-    height: 100%;
-  }
+.header{
+  display: flex;
+  background-color: rgb(18, 72, 18);
+  height: 90px;
+  width: 100%;
+  position: sticky;
+  top: 0px;
+  justify-content: space-between;
+}
 
-  header{
-    position: sticky;
-    top: 0;
-  }
+.header h1 {
+  color: #ffffff;
+  margin-left: 600px;
+  position: fixed;
+}
 
+.header h3 {
+  color: #ffffff;
+  margin-left: 600px;
+  display: flex;
+  margin: 1rem;
+}
 
+.header img {
+  width: 250px;
+  height: 100px;
+}
 
-  nav{
-   display: flex;
-   align-items: center;
-   justify-content: space-between;
-      color: white;
-      background-color: rgb(5, 72, 5);
-      text-align: center;
-      margin: -1rem;
-      padding: 1rem;
-      height: 11%;
-      width: 100%;
-      overflow: hidden;
-      width: 100%;
-      position: fixed;
-     top: 0;
-     min-height: 10vh;
-  }
-  
-  nav h1{
-    font-size: 40px;
-  }
-  nav img{
-    margin: -4rem;
-  }
-  
-  nav h2{
-    margin: 4rem;
-    font-size: 15px;
-  }
-  
-  
-  
-   nav h2{
-      font-size: medium;
-  }
+body{
+  margin: 0px;
+}
+ 
 
+.flex-container {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(198, 233, 55);
+  width: 114px;
+}
 
-  ol {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    list-style-type: none;
-    margin: -1vh;
-    padding: 0;
-    width: 10%;
-    background-color: rgb(143, 234, 7);
-    position: fixed;
-    height: 100%;
-    overflow: auto;
-    font-size: 11px;
-  }
+.flex-container a{
+color: #ffffff;
+text-decoration: none;
+}
 
-  li a {
-    display: block;
-    color: white;
-    padding: 8px 16px;
-    text-decoration: none;
-  }
-
-  .li1{
-    display: flex;
-    align-items: center;
-    background-color: darkgreen;
-    width: 105px;
-    height: 35px;
-    padding: 10px;
-    margin: 10px;
-  }
-
-  .li2{
-    display: flex;
-    align-items: center;
-    background-color: darkgreen;
-    width: 105px;
-    height: 35px;
-    padding: 10px;
-    margin: 10px;
-  }
-
-  .li3{
-    display: flex;
-    align-items: center;
-    background-color: darkgreen;
-    width: 105px;
-    height: 35px;
-    padding: 10px;
-    margin: 10px;
-  }
-
-  .li4{
-    display: flex;
-    align-items: center;
-    background-color: darkgreen;
-    width: 105px;
-    height: 35px;
-    padding: 10px;
-    margin: 10px;
-  }
-  
-  .li5{
-   display: flex;
-   align-items: center;
-    background-color: darkgreen;
-    width: 105px;
-    height: 35px;
-    padding: 10px;
-    margin: 10px;
-  }
-  
-  .li6{
-    display: flex;
-    align-items: center;
-    background-color: darkgreen;
-    width: 105px;
-    height: 35px;
-    padding: 10px;
-    margin: 10px;
-  }
-  
-  .li7{
-    display: flex;
-    align-items: center;
-    background-color: darkgreen;
-    width: 105px;
-    height: 35px;
-    padding: 10px;
-    margin: 10px;
-  }
-
-  .li8{
-    display: flex;
-    align-items: center;
-    background-color: darkgreen;
-    width: 105px;
-    height: 35px;
-    padding: 10px;
-    margin: 10px;
-  }
-  
+.flex-container > div {
+  background-color: #458354;
+  width: 95px;
+  margin: 10px;
+  padding: 0px;
+  text-align: center;
+  line-height: 70px;
+  font-size: 10px;
+}
 
 
   table, th, td {
@@ -173,22 +77,6 @@ html{
     text-decoration: none;
   }
 
-  footer a{
-    text-decoration: none;
-    color: white;
-  }
-  
-
-  main h2 {
-    font-size: 40px;
-  }
- main p{
-  font-size: 25px;
- }
-
- ul{
-  font-size: 18px;
- }
 
  body{
   background-color: rgb(60, 117, 60);
@@ -202,22 +90,22 @@ html{
   min-height: calc(100vh - 211px - 58px);
 }
 
+main {
+  position: absolute;
+  bottom: -550px;
+  left: 150px;
+}
 
 
-footer{
-
+.footer {
+  background-color: rgb(18, 72, 18);
   display: flex;
-  margin: 1rem;
-  text-align: center;
-  background-color: rgb(9, 66, 9);
-  color: white;
-  padding: 3px;
-  justify-content: space-evenly;
-  list-style-type: none;
- }
+  flex-direction: row;
+  justify-content: center;
+}
 
- footer a{
-color: white;
-list-style-type: none;
-text-decoration: none;
- }
+.social-links {
+  margin-left: 200px;
+  color: #ffffff;
+  text-decoration: none;
+}
