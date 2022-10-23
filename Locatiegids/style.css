@@ -55,7 +55,7 @@ h3 {
 
 .informatie {
     position: absolute;
-    bottom: 250px;
+    bottom: 100px;
     left: 600px;
     display: flex;
     align-items: center;

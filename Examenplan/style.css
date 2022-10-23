@@ -9,12 +9,17 @@
 
 h1 {
     color: #ffffff;
-    margin-left: 500px;
+    margin-left: 700px;
 }
 
 h3 {
     color: #ffffff;
     margin-left: 600px;
+}
+
+.logo {
+    width: 170px;
+    height: 85px;
 }
 
 img {
@@ -41,21 +46,22 @@ img {
 
 body {
     margin: 0px;
-    background-color: rgb(94, 161, 85);
 }
 
-
-
-p {
+img {
     position: absolute;
-    bottom: 300px;
-    left: 200px;
+    bottom: 100px;
+    left: 600px;
     display: flex;
     align-items: center;
     justify-content: center;
-    color: green;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: x-large;
+}
+
+.img1 {
+    left: 200px;
+    width: 1400px;
+    height: 800px;
+    top: 100px;
 }
 
 a {
