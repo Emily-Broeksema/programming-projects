@@ -34,8 +34,10 @@ body{
 .flex-container {
   display: flex;
   flex-direction: column;
+  justify-content: space-around;
   background-color: rgb(198, 233, 55);
   width: 114px;
+  height: 1300px;
 }
 
 .flex-container a{
@@ -65,18 +67,7 @@ text-decoration: none;
   }
 
 
-  footer {
-    display: flex;
-    justify-content: space-evenly;
-    width: 100%;
-    margin: 0;
-    text-align: center;
-    padding: 3px;
-    background-color: rgb(9, 66, 9);
-    color: white;
-    text-decoration: none;
-  }
-
+ 
 
  body{
   background-color: rgb(60, 117, 60);
