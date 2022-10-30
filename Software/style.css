@@ -1,169 +1,88 @@
-html{
-    height: 100%;
+
+  .header{
+    display: flex;
+    background-color: rgb(18, 72, 18);
+    height: 90px;
+    width: 100%;
+    position:sticky;
+    top: 0px;
+    justify-content: space-between;
   }
   
-  header{
-    position: sticky;
-    top: 0;
-  }
-  
-  nav{
-   display: flex;
-   align-items: center;
-   justify-content: space-between;
-      color: #ffffff;
-      background-color: rgb(18, 72, 18);
-      text-align: center;
-      margin: -1rem;
-      padding: 1rem;
-      height: 11%;
-      width: 100%;
-      overflow: hidden;
-      position: fixed;
-     top: 0;
-     min-height: 10vh;
-  }
+  h1 {
+    color: #ffffff;
+    margin-left: 600px;
+    position: fixed;
+}
 
-   nav h1{
-    font-size: 40px;
-  }
+h3 {
+    color: #ffffff;
+    margin-left: 600px;
+    display: flex;
+    margin: 1rem;
+}
+
+.header img {
+    width: 250px;
+    height: 100px;
+}
 
 
-  
-  nav img{
-    margin: -4rem;
-  }
-  
-  nav h2{
-    margin: 4rem;
-    font-size: 15px;
-  }
+   
 
-
-  ol {
+  .flex-container {
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
-    list-style-type: none;
-    margin: -1vh;
-    padding: 0;
-    width: 10%;
     background-color: rgb(198, 233, 55);
-    position: fixed;
-    height: 100%;
-    overflow: auto;
-    font-size: 11px;
-  }
+    width: 130px;
+}
 
+.flex-container a{
+  color: #ffffff;
+  text-decoration: none;
+}
+  
+.flex-container > div {
+    background-color: #458354;
+    width: 95px;
+    margin: 20px;
+    padding: 0px;
+    text-align: center;
+    line-height: 70px;
+    font-size: 10px;
+}
 
-  li a {
-    display: block;
-    color: #ffffff;
-    padding: 8px 16px;
-    text-decoration: none;
-  }
+body{
+  margin: 0px;
+}
 
   
-  .li1{
-    display: flex;
-    align-items: center;
-    background-color: darkgreen;
-    width: 105px;
-    height: 35px;
-    padding: 10px;
-    margin: 10px;
-  }
-
-  .li2{
-    display: flex;
-    align-items: center;
-    background-color: darkgreen;
-    width: 105px;
-    height: 35px;
-    padding: 10px;
-    margin: 10px;
-  }
-
-  .li3{
-    display: flex;
-    align-items: center;
-    background-color: darkgreen;
-    width: 105px;
-    height: 35px;
-    padding: 10px;
-    margin: 10px;
-  }
-
-  .li4{
-    display: flex;
-    align-items: center;
-    background-color: darkgreen;
-    width: 105px;
-    height: 35px;
-    padding: 10px;
-    margin: 10px;
-  }
-  
-  .li5{
-   display: flex;
-   align-items: center;
-    background-color: darkgreen;
-    width: 105px;
-    height: 35px;
-    padding: 10px;
-    margin: 10px;
-  }
-  
-  .li6{
-    display: flex;
-    align-items: center;
-    background-color: darkgreen;
-    width: 105px;
-    height: 35px;
-    padding: 10px;
-    margin: 10px;
-  }
-  
-  .li7{
-    display: flex;
-    align-items: center;
-    background-color: darkgreen;
-    width: 105px;
-    height: 35px;
-    padding: 10px;
-    margin: 10px;
-  }
-
-  .li8{
-    display: flex;
-    align-items: center;
-    background-color: darkgreen;
-    width: 105px;
-    height: 35px;
-    padding: 10px;
-    margin: 10px;
-  }
 
 
-
-article{
+.divall{
   display: flex;
   justify-content: space-around;
 }
 
 
-main{ 
+.divall{ 
   width: 80vw;
   margin: 0 auto;
-  min-height: calc(100vh - 111px - 111px);
+  min-height: calc(100vh - 80px - 80px);
+ display: flex;
+ justify-content: space-around;
+ 
 }
 
-main img{
+.divall img{
   float: left;
+  
 }
-main p{
+
+.divall p{
   margin: 1rem;
   float: left;
+  
 }
 
 .div1{
@@ -194,30 +113,38 @@ body{
 }
 
 
-.divli{
-margin: 150px;
+.footer {
+  background-color: rgb(18, 72, 18);
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.social-links {
+  margin-left: 200px;
+  color: #ffffff;
+  text-decoration: none;
 }
 
 
-
-
-footer{
-display: flex;
-margin: -1rem;
-text-align: center;
-background-color: rgb(18, 72, 18);
-color: white;
-padding: 3px;
-justify-content: space-evenly;
-list-style-type: none;
+.divall {
+  position: absolute;
+  bottom: -150px;
+  left: 150px;
 }
 
-footer a{
-color: #ffffff;
-list-style-type: none;
-text-decoration: none;
+.h2li{
+  
+    position: absolute;
+    bottom: -450px;
+    left: 150px;
 }
 
+.h2link{
+  position: absolute;
+  bottom: -300px;
+  left: 150px;
+}
 
 
   
