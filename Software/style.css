@@ -136,13 +136,13 @@ body{
 .h2li{
   
     position: absolute;
-    bottom: -450px;
+    bottom: -350px;
     left: 150px;
 }
 
 .h2link{
   position: absolute;
-  bottom: -300px;
+  bottom: -200px;
   left: 150px;
 }
 
